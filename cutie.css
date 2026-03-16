@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fff8; /* light green background */
+    margin: 0;
+    padding: 20px;
+    color: #2e7d32; /* dark green text */
+}
+
+h1 {
+    text-align: center;
+    font-family: "press Start 2P";
+    text-shadow: -3px 3px 0px rgb(209, 68, 68);
+    color: #0a9211;
+    margin-bottom: 30px;
+}
+
+nav {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+#navigation {
+    list-style:circle;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    margin: 10px 0;
+}
+
+.buttons a {
+    display: block;
+    padding: 14px 20px;
+    background-color: white;
+    color: #2e7d32;
+    text-decoration: none;
+    font-family: "Audiowide";
+    font-weight: bold;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background-color: red;
+    color: white;
+    border-color: darkgreen;
+    transform: translateX(8px);
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: #4CAF50;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+p{
+    text-align: center;
+    font-family: "press Start 2P";
+    text-shadow: -2px 2px 0px rgb(209, 68, 68);
+    color: #0a9211;
+    margin-bottom: 30px;
+
+
+}
+
+/* Slightly darker green for Java/HTML section separators */
+.group2 hr {
+    background: #388E3C;
+}

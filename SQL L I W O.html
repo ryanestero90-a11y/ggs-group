@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title> SQL LIKE, IN, WILDCARD, OPERATOR </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+   
+
+</head>
+<body>
+    <center>
+    <nav>
+      <h2>
+         <a href="../ggs group/button.html"> < HOME PAGE : </a>
+      </h2>
+   </nav>
+      <h3><b>SQL LIKE</b> </h3>
+      <h3><b> IN </b></h3>
+      <h4><b> WILDCARD </b></h4>
+      <h5><b> OPERATOR </b></h5>
+
+        
+    </center>
+     <h1>The SQL LIKE Operator</h1>
+     <p>-The <b>LIKE</b> operator is used in a <b>WHERE</b> to search for a specified pattern in a column.There are two wildcards often used in conjunction with the <b>LIKE</b> operator:</p>
+     <p>-The percent sign <b>%</b> represents zero, one, or multiple characters</p>
+     <p>-The underscore sign <b>_</b> represents one, single character</p>
+
+     <h2>SELECT column1, column2, ...FROM table_name WHERE columnN LIKE pattern;</h2>
+
+     <h2>SELECT * FROM Customers WHERE CustomerName LIKE '%mer%';</h2>
+
+     <hr color="black">
+
+     <h1>SQL Wildcard Characters</h1>
+     <p>A wildcard character is used to substitute one or more characters in a string.characters are used with the <b>LIKE</b> operator. The <b>LIKE</b> operator is used in a <b>WHERE</b> clause to search for a specified pattern in a column.</p>
+    
+     <p>
+        <h2>Using the % Wildcard</h2> The <b>%</b> wildcard represents any number of characters, even zero characters.
+     </p>
+
+     <h2>SELECT * FROMCustomers WHERE CustomerName LIKE 'a%';</h2>
+
+     <hr color="black">
+
+     <h1>The SQL IN Operator</h1>
+     <p>The <b>IN</b> operator allows you to specify multiple values in a <b>WHERE</b> clause.Theo <b>IN</b> perator is a shorthand for multiple <b>OR</b> conditions</p>
+
+     <h2>SELECT column_name(s) FROM table_name WHERE column_name IN (value1, value2, ...);</h2>
+     <h2>SELECT * FROM Customers WHERE Country IN ('Germany', 'France', 'UK');</h2>
+
+     <hr color="black"> 
+     
+
+
+</body>
+</html>

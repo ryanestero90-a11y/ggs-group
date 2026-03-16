@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title> Lesson 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    
+   
+</head>
+<body>
+    <center>
+        <h2>LESSON 5 : </h2>
+        <h3><b>UPDATE AND SET KEYWORD</b></h3>
+    </center>
+    <h1>UPDATING DATA:</h1>
+    <p>-UPDATE table_name SET p1. p2… Where CONDITION</p>
+
+    <hr color="black">
+
+    <h1>SET KEYWORD:</h1>
+    <p>-Indicates what columns is to be updated and what value should it use to update and what value should it use to update the data with</p>
+
+    <hr color="black">
+
+    <h1>WHERE KEYWORD:</h1>
+    <p>-The WHERE keyword is used to UPDATE certains ROWS in the table</p>
+    <p>IF SAFE MODE IS ON</p>
+    <p>-WHERE is necessary.</p>
+    <p>-WHERE must ALWAYS use a PRIMARY KEY</p>
+
+    <hr color="black">
+
+    <h1>CONDITIONAL:</h1>
+     <b><p>= EQUALS</p></b>
+     <b><p><> NOT EQUALS</p></b>
+     <b><p>>  GREATER THAN</p></b>
+     <b><p><  LESS THAN</p></b>
+     <b><p>>= GREATER THAN or EQUALS</p></b>
+     <b><p><= LESS THAN EQUALS or EQUALS</p></b>
+
+    <hr color="black">
+
+    <h1>EXAMPLES:</h1>
+    <h6>Example #1:</h6>
+     <b><p>-Mikey Goodman Changes his Bio to “HATDOG”</p></b>
+
+    <h6>Query #1:</h6>
+     <b><p>-UPDATE SET Bio = “HATDOG” WHERE UID = 1</p></b>
+
+    <h6>Example #2:</h6>
+     <b><p>-Monty Aguilar verified her Account.</p></b>
+
+    <h6>Query #2:</h6>
+     <b><p>-UPDATE SET Verified = TRUE WHERE UID = 8;</p></b>
+
+    <h6>Example #3:</h6>
+     <b><p>-Kobe Mcdowell  Verified his Account and changed his first name to koby</p></b>
+
+    <h6>Query #3:</h6>
+     <b><p>-UPDATE   SET  Verified = TRUE, FirstName =“koby” WHERE UID = 6;</p></b>
+
+    <hr color="black">
+
+    <h6>NOT KEYWORD:</h6>
+     <b><p>-The NOT keyword is used to invert the where condition.</p></b>
+
+    <h6>Example:</h6>
+     <b><p>-Katherine Palmer and Monty Callaghan Verified their Account!</p></b>
+
+    <h6>Query:</h6>
+     <b><p>-UPDATE  SET bio = “” WHERE NOT UID = 5;</p></b>
+     
+    <hr color="black">
+
+    <h1>IN KEYWORD:</h1>
+     <b><p>-The IN keyword is used after the WHERE keyword to update multiple row</p></b>
+
+    <h6>Example:</h6>
+     <b><p>-Katherine Palmer and Monty Callaghan Verified their Account!</p></b>
+
+    <h6>Query:</h6>
+     <b><p>-UPDATE SET Verified = True WHERE UID IN (5,4)</p></b>
+
+
+    <hr color="black">
+
+
+
+    
+</body>
+</html>

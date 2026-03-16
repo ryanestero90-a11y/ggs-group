@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding:0;
+
+ }
+
+h1{
+    color:rgb(8, 103, 180);
+    text-shadow: -13px 13px 0px rgb(18, 2, 88);
+    font-family: "Audiowide";
+    font-size: 120px;
+    background-color:bisque;
+
+ }
+
+p{
+    color: #786C3B;
+    font-family: "Pixelify Sans";
+    font-size: 100px;
+    margin: 20px;
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-left:35px;
+    padding-right:20px;
+    padding-bottom:20px;  
+ }
+
+img{
+   margin: 20px;
+   padding-top: 20px;
+   padding-left:30px;
+   padding-right:20px;
+   padding-bottom:20px;
+        
+}
+
+b{
+   color: #0D4715;
+
+ }
+
+li{
+   color: #254F22;
+   font-size: x-large;
+   margin: 20px;
+   padding-left:30px;
+   padding-right:20px;
+
+ }
+
+h2 {
+   color:#6E5034;
+   text-shadow: -9px 9px 0px rgb(194, 194, 163);
+   font-family: "press Start 2P";
+   font-size: 80px;
+
+ }
+
+
+h3{
+    color:#6E5034;
+    text-shadow: -20px 20px 0px greenyellow;
+    font-family: "press Start 2P";
+    font-size: 250px;
+    font-size: bold;
+    
+ }
+
+h4{ 
+    color:#6E5034;
+    text-shadow: -20px 20px 0px greenyellow;
+    font-family: "press Start 2P";
+    font-size: 250px;
+    font-size: bold;
+    padding-left: 30px;
+
+ }
+
+h5{
+    color:#6E5034;
+    text-shadow: -20px 20px 0px greenyellow;
+    font-family: "press Start 2P";
+    font-size: 250px;
+    font-weight: bold;
+    padding-left: 27px;
+   
+
+ }
+
+h6{
+   color:#6d5034;
+   text-shadow: -10px 10px 0px beige;
+   font-family: "press Start 2P";
+   font-size: 80px;
+   margin-left: 20px;
+   padding-left: 20px;
+
+
+ }
+
+body{
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+ }
+
+
+li{
+    color: #786C3B;
+    font-size: 100px;
+    font-family: "Pixelify Sans";
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-left:35px;
+    padding-right:20px;
+    padding-bottom:20px;  
+
+} 
+
+

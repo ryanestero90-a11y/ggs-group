@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Lesson 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+   
+</head>
+
+
+<body>
+    <center>
+    <nav>
+      <h2>
+         <a href="../ggs group/button.html"> < LESSON 4 : </a>
+      </h2>
+   </nav>
+      <h3><b>SELECT KEYWORD</b></h3>
+    </center>
+    <h1>SELECTING KEYWORD:</h1>
+    <p>-SELECT * FROM table_name;</p>
+    <p>-Or</p>
+    <p>-SELECT* FROM table_name Where condition;</p>
+
+    <h1>(ALL) * KEYWORD:</h1>
+    <p>-The Keyword <b> “ * ” </b> means <b> “ALL” </b>. It means that we are going to select all of the columns</p>
+
+    <h1>FROM KEYWORD:</h1>
+    <p>-The from keyword will indicate what table should we use getting the data</p>
+    <p>-Example : Select ALL employees from the table tblEmployees;</p>
+    <p>Query : SELECT * FROM tblEmployees;</p>
+
+    <h1>WHERE KEYWORD:</h1>
+    <p>-The WHERE keyword is used to select more specific data where a condition is met</p>
+    <p>-Example: You Want to select all Employees with the Last Name “Santos”</p>
+    <p>-Example: You Want to select all Employees with the Last Name “Santos”</p>
+
+    <h1>CONDITIONAL STATEMENTS:</h1>
+
+      <b><p>= 	 EQUALS</p></b>
+      <b><p><>  NOT EQUALS</p></b>
+      <b><p>>   GREATER THAN</p></b>
+      <b><p><   LESS THAN</p></b>
+      <b><p>>= GREATER THAN or EQUALS</p></b>
+      <b><p><=  LESS THAN EQUALS or EQUALS</p></b>
+    
+    <h1>NOT KEYWORD:</h1>
+    <p>-The NOT Keyword is used to invert the Where Condition.</p>
+    <p>-<b>Example :</b>Select ALL Employeess EXPECT if their Last Name is “Santos”</p>
+    <p>-<b>Query : </b> SELECT * FROM tblEmployees WHERE NOT LastName =“Santos”</p>
+     
+    <h1>IN KEYWORD:</h1>
+    <p>-The IN keyword is used after WHERE Keyword to select multiple values in a parameter</p>
+    <p>-<b>Example : </b> Select ALL employees with the Last Name “Santos” and “Dela Cruz”</p>
+    <p>-<b>Query : </b> * From tblEmployees WHERE LastName IN (“Santos” , “Dela Cruz”);</p>
+
+    <h1>AND KEYWORD:</h1>
+    <p>-The AND keyword is used to add conditions in a WHERE statement where in both conditions must be true</p>
+    <p>-<b>Example :</b>Select ALL employess with the Last Name “Santos” and their age must be 30 and above.</p>
+    <p>-<b>Query : </b>SELECT*FROM tblEmployees Where LastName =  “Santos” AND age >=18</p>
+
+
+
+
+</body>
+</html>
